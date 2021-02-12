@@ -130,11 +130,5 @@ class SantimentalAnalysis:
             plt.show()  
                 
             
-if __name__ == "__main__":      
-    sant  = SantimentalAnalysis()
-    api = sant.Download()  
-    print(api)
-    search_term = input("Enter Keyword/Tag to search about:")
-    no_of_term = int(input("enter howmany tweets you wants to search"))
-    sant.fetch_tweetes(search_term,no_of_term,api)
+
     
